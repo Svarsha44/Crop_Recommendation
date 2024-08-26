@@ -98,5 +98,5 @@ o.NearestNeighbors(sample_input[0],3)
 
 pickle.dump(o,open('model.pkl','wb'))
 model=pickle.load(open('model.pkl','rb'))
-model.NearestNeighbors([90,42,43,20.879743,82.002,6.50,202.93],5)
+model.NearestNeighbors([90,42,43,20.879743,82.002,6.50,202.93],3)
 
